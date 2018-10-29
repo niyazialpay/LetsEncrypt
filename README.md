@@ -9,4 +9,4 @@ This script works by using the acme.sh script. With this script you can set up a
 
 -i = Server IP address
 
--s = true/false - Staging mode. Defauult value is false
+-s = true/false - Staging mode. Default value is false
