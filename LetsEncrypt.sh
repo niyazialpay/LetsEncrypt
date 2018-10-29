@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 #Muhammed Niyazi ALPAY
+#https://niyazi.org
 #admin@niyazi.org
 while getopts d:c:i:s:h: option
 do
@@ -111,6 +112,7 @@ ipcheck()
     else
      echo "IP found"
     fi
+    rm -rf ip.txt
 }
 
 help()
