@@ -97,7 +97,7 @@ else
 export CF_Key='$cf_apikey'
 export CF_Email='$cf_email'
 SAVED_CF_Key='$cf_apikey'
-SAVED_CF_Email='$cf_email'" > .acme.sh/account.conf
+SAVED_CF_Email='$cf_email'" > /root/.acme.sh/account.conf
 	letsencrypt
 fi
 }
