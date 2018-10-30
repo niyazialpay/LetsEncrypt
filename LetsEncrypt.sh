@@ -121,7 +121,8 @@ help()
     -d = Domain name
     -c = true/false - Default certificate for Plesk services. The -i parameter is also required for this parameter. Default value is false
     -i = Server IP address
-    -s = true/false - Staging mode. Defauult value is false"
+    -s = true/false - Staging mode. Defauult value is false
+    -h = Help menu"
 
 }
 
