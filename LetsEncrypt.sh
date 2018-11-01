@@ -46,7 +46,7 @@ letsencrypt()
 		fi
 	fi
 
-	plesk bin subdomain -l | grep ${domainname} > site.txt
+	/usr/sbin/plesk bin subdomain -l | grep ${domainname} > site.txt
 
 	while read line
 	do
